@@ -1,0 +1,341 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 2em;
+  background-color: white;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.logom{
+  padding: 5px;
+  color: rgb(105, 205, 227);
+}
+.mainn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(24, 24, 24);
+  display: flex;
+  z-index:1;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  position: relative;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title {
+  margin: 0%;
+  padding: 20px;
+  padding-left: 80px;
+  font-size: 2rem;
+  width: 30%;
+}
+.smallt {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  flex-grow: 1;
+  text-align: center;
+}
+.p {
+  font-size: 1rem;
+  padding: 0px 50px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.p:hover {
+  border-bottom: 2px solid rgb(100, 100, 100);
+}
+.f1 {
+  display: flex;
+  flex-direction: row;
+  height: 450px;
+  box-shadow: 0px 4px 4px 0px rgb(171, 171, 171);
+}
+.gesture {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  padding-top: 80px;
+}
+.imgg {
+  width: 50%;
+  height: fit-content;
+  position: relative;
+}
+@keyframes imgg{
+  0% {top:0px; left:0px;}
+  50% {top:20px; left:0px;}
+  100% {top:0px; left:0px;}
+}
+.img1 {
+  float: right;
+  width: 85%;
+  height:400px;
+  position: absolute;
+  padding:30px;
+  animation-name: imgg;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.sma {
+  min-width: 50%;
+  font-size: 1.5rem;
+  padding: 20px 100px;
+  font-family:Arial, Tahoma, Serif;
+  font-weight: 500;
+
+}
+
+.hlobt {
+  font-size: 1.25rem;
+  background-color: rgb(105, 205, 227);
+  padding: 10px 40px;
+  border-radius: 40px;
+  border: none;
+  width: 250px;
+  font-weight: 600;
+  margin: 20px;
+  margin-left: 90px;
+}
+.card {
+  width: 280px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position:static;
+}
+.fol {
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.p1 {
+  padding: 10px 40px;
+}
+.p1:hover {
+  border-bottom: 2px solid white;
+}
+h6 {
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 0px;
+}
+.foot {
+  background-color: rgb(105, 205, 227);
+  color: white;
+  width: 100%;
+}
+.icon {
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  color: white;
+  padding: 10px 40px;
+}
+
+.btn11 {
+  background-color: rgb(105, 205, 227);
+  border: none;
+}
+.btn11:hover {
+  background-color: rgb(139, 207, 222);
+}
+.hm {
+  margin-top: 50px;
+  background-color: rgb(139, 207, 222);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  text-align: center;
+}
+h4 {
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  min-height: 200px;
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 30px;
+  padding: 5px;
+  border-radius: 20px;
+}
+.qu {
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 15px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+.qua {
+  font-size: 1.2rem;
+  padding: 15px;
+  padding-top: 0px;
+  border-bottom: 1px solid black;
+  margin: 0px;
+}
+.corr {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.an {
+  width: 40%;
+  padding: 10px;
+  font-weight: 600;
+}
+.op1 {
+  width: 60%;
+  padding: 10px;
+  background-color: rgb(82, 189, 82);
+  border-radius: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.line {
+  display: none;
+  position: absolute;
+  right: 0%;
+  top: 20%;
+  border: none;
+  background-color: white;
+  pointer-events: none;
+}
+
+.plus {
+  color: black;
+  margin-left: auto;
+  font-size: 1.8rem;
+}
+.st {
+  width: 15%;
+  height: 100%;
+  float: center;
+  padding: 5px;
+}
+.Not{
+  padding: 200px 0px;
+  text-align: center;
+  width: 100%;
+  color: rgb(105, 104, 104);
+}
+.p11{
+  color: white;
+}
+@media only screen and (max-width: 980px) {
+  .box {
+    width: 300px;
+    margin: 20px;
+  }
+
+  .mainn {
+    flex-direction: column;
+  }
+  .title {
+    padding: 10px;
+    font-size: 1.6rem;
+    width: 90%;
+    padding-bottom: 15px;
+
+  }
+  .smallt {
+    flex-direction: column;
+    width: 50%;
+    
+  }
+  .f1{
+    height: fit-content;
+  }
+  .p {
+    font-size: 0.9rem;
+    padding: 5px;
+    margin: 0px;
+  }
+  .hlobt {
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 0.75rem;
+    padding: 10px;
+    width: 100px;
+  }
+  .sma {
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+  .img1 {
+    height: 150px;
+    width: 160px;
+    padding: 0px;
+
+    padding-top: 20px;
+  }
+  .gesture {
+    padding: 10px;
+  }
+  .qu,
+  .qua,
+  .an,
+  .op1 {
+    font-size: 1rem;
+  }
+  .p1 {
+    padding: 10px;
+  }
+  .card {
+    width: 240px;
+    height: 320px;
+  }
+  .card-title{
+    font-size: 1.1rem;
+  }
+  i {
+    padding: 10px;
+  }
+  .line {
+    display: block;
+    position: relative;
+    float: right;
+    border: none;
+    background-color: white;
+    font-size: 2rem;
+    padding: 0px;
+    pointer-events: all;
+  }
+  .plus {
+    font-size: 1.7rem;
+    width: 10%;
+    padding: 0px;
+    padding-top:3px;
+    float: right;
+  }
+  .st{
+    width: 30%;
+  }
+}
